@@ -1,0 +1,86 @@
+#main-content {
+	background-color:black;
+	height:300px;
+	padding:50px 10px 10px 10px;
+}
+#main-content h1{
+	font-size:100px;
+    text-align:center;
+}
+
+#main-content .ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #402d2d;
+}
+
+#main-content .ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+#main-content .ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color:white;
+  transform-origin: 0.5 0;
+}
+
+#main-content .ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+#main-content .ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+/* corsoul */
+animation-delay: 2s;
+}
+.carousel-caption button {
+	animation-delay: 3s;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p {
+  padding-top: 125px;
+  text-align: center;
+}
+
+.p a {
+  text-decoration: underline;
+}
+
+/* Search section */
+#Search_barr {
+  background-color:black;
+}
+ /* footer Section */ 
+
+ .card-body:hover{
+  background-color:   #997d07
+
+
+;
+ }

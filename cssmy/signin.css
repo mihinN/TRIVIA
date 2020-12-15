@@ -1,0 +1,86 @@
+/* main Content */
+#main-content {
+	background-color:black;
+	height:300px;
+	padding:50px 10px 10px 10px;
+}
+#main-content h1{
+	font-size:100px;
+    text-align:center;
+}
+
+#main-content .ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #402d2d;
+}
+
+#main-content .ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+#main-content .ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color:white;
+  transform-origin: 0.5 0;
+}
+
+#main-content .ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+#main-content .ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+/* Container Section */ 
+.container-fluid{
+	background-color:black;
+	height:500px;
+  text-align:center;
+}
+.container-fluid h1{
+	text-align:center;
+	font-family: 'Staatliches', cursive;
+	color:white;
+}
+.container-fluid h2{
+  font-family: 'Staatliches', cursive;
+  font-size:20px;
+  color:white;
+  margin:2px 2px 2px 2px;
+}
+.container-fluid input{
+  margin-top:5px;
+}
+
+ /* footer Section */ 
+ #footer{
+  margin-top:2px;
+  height:50px;
+  background-color:black;
+ }
+ #footer h4 {
+  text-align:center;
+  font-size:15px;
+  font-family: 'Staatliches', cursive;
+  padding:20px 10px 10px 10px;
+  color:white;
+ }

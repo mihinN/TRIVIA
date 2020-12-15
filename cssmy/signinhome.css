@@ -1,0 +1,134 @@
+#main-content {
+	background-color:black;
+	height:300px;
+	padding:50px 10px 10px 10px;
+}
+#main-content h1{
+	font-size:100px;
+    text-align:center;
+}
+
+#main-content .ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #402d2d;
+}
+
+#main-content .ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+#main-content .ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color:white;
+  transform-origin: 0.5 0;
+}
+
+#main-content .ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+#main-content .ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+/* second content */
+#second-content {
+}
+
+#second-content .container-fluid{
+	background-image:url("images/image333.jpg");
+	opacity:0.9;
+	padding:10px 10px 10px 10px;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:700px;
+	
+}
+#second-content h1{
+	font-family: 'Staatliches';
+	font-size: 90px;
+	text-align:center;
+}
+#second-content a {
+	position:relative;
+	left:45%;
+	background-color:white;
+	padding:10px 10px 10px 10px;
+	font-size:25px;
+	color:black;
+	border-radius:5px;
+	text-decoration:none;
+
+}
+#second-content a:hover{
+	background-color:black;
+	color:white;
+}
+@media(max-width:600px){
+	#second-content a {
+	position:relative;
+	left:40%;
+	background-color:white;
+	padding:10px 10px 10px 10px;
+	font-size:25px;
+	color:black;
+	text-decoration:none;
+
+}
+}
+/* third content */
+#third-content{
+	height:700px;
+	background-color:black;
+}
+#form-section{
+ margin:10px 0px 0px 200px;
+}
+.container-fluid h2{
+	padding:10px;
+	color:white;
+	 font-family: 'Staatliches', cursive;
+}
+#form-section h5 {
+	color:white;
+	 font-family: 'Josefin Sans', sans-serif;
+	 margin:5px 0px 0px 0px;
+}
+#form-section input{
+	border-radius:5px;
+	margin:2px 0px 0px 0px;
+}
+#news input{
+	margin:0px;
+}
+/* footer section */
+#footer{
+	background-color:black;
+	height:50px;
+}
+#footer h4{
+  text-align:center;
+  font-size:15px;
+  font-family: 'Staatliches', cursive;
+  padding:20px 10px 10px 10px;
+  color:white;
+}
